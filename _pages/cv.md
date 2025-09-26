@@ -9,37 +9,38 @@ redirect_from:
 
 {% include base_path %}
 
+<p>
+<a class="btn btn--primary" href="/assets/Kye_s_Resume.pdf" target="_blank">下载 PDF 简历</a>
+</p>
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* The Chinese University of Hong Kong, Shenzhen — M.Phil, Computer & Information Engineering, Jan. 2024 - Now (Supervisor: Prof. Rui Huang)
+* Lanzhou University — B.S., Computer Science & Technology, Sept. 2018 - July 2022 (Supervisor: Prof. Minqiang Yang)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Algorithm Engineer, YITU, Shanghai — Jul. 2022 - Jun. 2023
+  * Autonomous Driving Perception (Jul. 2022 - Aug. 2022): 雷达替代单帧遮挡检测方案研发与路测
+  * Motion Prediction (Sept. 2022 - Dec. 2022): 数据增强/架构优化/损失设计使指标较基线下降 10%，解决 44.05% 实车问题
+  * Mapless Driving (Jan. 2023 - Jun. 2023): 路网结构预测数据工程，提升数据多样性与准确性
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Research experience
+======
+* UAIS Lab, Lanzhou University — Research Assistant, Mar. 2019 - Sept. 2021 (Advisors: Bin Hu, Minqiang Yang)
+  * Independent Encoder for Deep Hierarchical Unsupervised I2I Translation：重构网络缓解语义不一致，性能优于当时 SOTA [2]
+  * Retinal Vessel Segmentation：多尺度注意力 + 对抗学习 + 拼接增强提升分割性能 [3,4]
+  * Eyeglasses Try-On 平台：I2I 去镜框 + AR 试戴，产出国家发明专利 [5]
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Shenzhen Institute of Artificial Intelligence and Robotics — Research Assistant, Jun. 2024 - Now (Advisor: Rui Huang)
+  * Multi-View 3D Visual Grounding：CVPR 2024 竞赛 5/64；
+  * Dexterous Hand Grasping：语音+视觉多模态抓取系统；优秀奖与媒体报道；论文 [1]
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python, PyTorch, Linux
+* 视觉/多模态/嵌入式工程实现
+* 英语（IELTS 6.5）
 
 Publications
 ======
@@ -61,4 +62,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* 篮球爱好者
