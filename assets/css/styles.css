@@ -25,10 +25,15 @@ body {
 .site-nav a:hover { color: var(--link); }
 
 .intro { padding: 24px 0; }
-.intro-grid { display: grid; grid-template-columns: 160px 1fr; gap: 24px; align-items: center; }
+.intro-grid { display: grid; grid-template-columns: 160px 1fr fit-content(360px); gap: 24px; align-items: center; }
 .intro-photo { width: 160px; height: 160px; border-radius: 50%; overflow: hidden; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; background: #f3f4f6; }
 .intro-photo img { width: 100%; height: 100%; object-fit: cover; }
 .intro-info p { margin: 4px 0; }
+.intro-name { font-size: 34px; line-height: 1.1; margin-bottom: 6px; }
+.intro-contact { justify-self: end; text-align: right; }
+.intro-contact p { margin: 4px 0; }
+.intro-info { min-width: 0; }
+.intro-info p { overflow-wrap: anywhere; }
 .intro-info a { color: var(--link); text-decoration: none; }
 .intro-info a:hover { text-decoration: underline; }
 
@@ -52,6 +57,8 @@ body {
 .pub-thumb { width: 140px; height: 90px; background: #eee; border: 1px solid var(--border); }
 .pub-info p { margin: 4px 0; }
 .coauthor { color: var(--muted); }
+.pub-authors { margin-bottom: 2px; }
+.pub-venue { color: var(--text); font-weight: 400; }
 
 .site-footer { border-top: 1px solid var(--border); margin-top: 24px; padding: 16px 0; color: var(--muted); font-size: 14px; }
 
