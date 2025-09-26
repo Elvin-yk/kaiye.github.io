@@ -37,6 +37,16 @@ body {
 .list { padding-left: 20px; margin: 0; }
 .list li { margin: 6px 0; }
 
+.entries { display: grid; row-gap: 12px; margin: 0; }
+.entry { padding: 12px 0; border-top: 1px dashed var(--border); }
+.entry:first-child { border-top: none; }
+.entry-header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.entry-institution, .entry-title { font-weight: 600; }
+.entry-dates { color: var(--muted); font-size: 14px; white-space: nowrap; }
+.entry-role { margin-top: 4px; }
+.entry-bullets { margin: 6px 0 0 18px; }
+.entry-bullets li { margin: 3px 0; }
+
 .pub { display: grid; grid-template-columns: 140px 1fr; gap: 16px; padding: 12px 0; border-top: 1px dashed var(--border); }
 .pub:first-child { border-top: none; }
 .pub-thumb { width: 140px; height: 90px; background: #eee; border: 1px solid var(--border); }
