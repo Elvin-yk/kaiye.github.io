@@ -51,6 +51,7 @@ body {
 .pub:first-child { border-top: none; }
 .pub-thumb { width: 140px; height: 90px; background: #eee; border: 1px solid var(--border); }
 .pub-info p { margin: 4px 0; }
+.coauthor { color: var(--muted); }
 
 .site-footer { border-top: 1px solid var(--border); margin-top: 24px; padding: 16px 0; color: var(--muted); font-size: 14px; }
 
